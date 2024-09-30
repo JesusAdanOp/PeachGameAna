@@ -40,7 +40,7 @@ if place_meeting(x + xspd, y, obj_wall)  // Verificación de colisión con la pa
     {
         x += _pixel_check;
     }
-    //xspd = 0;  // xspd con valor 0 al momento de colisionar
+    xspd = 0;  // xspd con valor 0 al momento de colisionar
 }
 x += xspd;
 
@@ -73,7 +73,4 @@ if xspd == 0 && yspd == 0
     image_index = 0;
 }
 
-show_debug_message("x: "+string(x));
-show_debug_message("y: "+string(y));
-show_debug_message("xspd: "+string(xspd));
-show_debug_message("yspd: "+string(yspd));
+

@@ -1,7 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-/*
-if sprite_index == spr_peach_muerte
+show_debug_message(sprite_get_name(sprite_index))
+if string(sprite_get_name(sprite_index)) == "spr_peach_muerte"
 	{
 		direction =0;
 		image_speed =0;
@@ -21,4 +21,4 @@ if sprite_index == spr_peach_muerte
 			velocity = 4;
 		}
 	}
-	*/
+	
